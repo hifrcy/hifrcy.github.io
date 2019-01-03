@@ -24,25 +24,30 @@ header {
   font-family: 'Staatliches', cursive;
 }
 
-.logo {
+.logo{
   flex: 1;
   width: 64px;
 }
-.element:nth-child(2){
-    background-color: blue;
-    align-self: flex-end; /* Seul ce bloc sera aligné à la fin */
+
+.logo:nth-child(1){
+    align-self: flex-end;
+    filter: invert(1);
 }
+
+.logo:nth-child(2){
+    align-self: flex-end;
+}
+
 img {
     width: 64px;
 }
-
 
 
 body {
     font-size: 20px;
     color: white;
     background-color: #0094ab;
-    font-family: 'Lora', 'Times New Roman', serif;
+    font-family: 'Staatliches', cursive;
 }
 
 h1, h2, h3 {
