@@ -13,7 +13,7 @@ header {
 #conteneur{
   display: flex;
   justify-content: space-around;
-  margin: 20px;
+  margin: 1%;
 }
 
 .nl {
@@ -61,11 +61,14 @@ body {
   background-attachment: fixed;
   background-position: 90% 50%;
   background-color: #0094ab;
-  font-family: 'Lobster', cursive;
+  font-family: 'Lobster Two', cursive;
 }
 
 .row{
   margin-top: 50px;
+}
+#texte{
+  width: 440px;
 }
 
 #texte2{
