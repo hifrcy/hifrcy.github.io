@@ -6,55 +6,70 @@ header {
   background-color: black;
   text-align: center;
   color: white;
+  font-family: 'Staatliches', cursive;
 }
 
 
 #conteneur{
   display: flex;
   justify-content: space-around;
-  margin: 40px;
-  image: height 64px;
+  margin: 20px;
 }
 
 .nl {
   width: 150px;
-  margin: 50px;
+  margin: 30px;
   border: 3px solid white;
   border-radius: 15px 15px;
-  font-family: 'Staatliches', cursive;
+  white-space: nowrap;
+}
+
+.nl2 {
+  margin: 30px;
+  white-space: nowrap;
+}
+
+h5 {
+  transform: translateY(20%);
 }
 
 .logo{
-
-  width: 64px;
+  align-self: flex-end;
 }
 
 .logo:nth-child(1){
-    align-self: flex-end;
+    margin-right:10px;
     filter: invert(1);
-    width: 64px;
 }
 
 .logo:nth-child(2){
+    margin-right:10px;
     align-self: flex-end;
-    filter: invert(1);
-    width: 64px;
+}
+
+.logo:nth-child(3){
+    align-self: flex-end;
+    margin-right: auto;
 }
 
 body {
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   color: white;
   background: url(https://raw.githubusercontent.com/hifrcy/landing-page/dev/image/fond.png)no-repeat;
   background-size: 50%;
   background-attachment: fixed;
   background-position: 90% 50%;
   background-color: #0094ab;
-  font-family: 'Staatliches', cursive;
+  font-family: 'Lobster', cursive;
 }
 
-.texte{
-  text-align: center;
+.row{
+  margin-top: 50px;
+}
+
+#texte2{
+    font-family: 'Staatliches', cursive;
 }
 
 #background{
