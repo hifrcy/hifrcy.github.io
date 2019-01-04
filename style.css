@@ -69,10 +69,15 @@ body {
 }
 
 #texte2{
-    font-family: 'Staatliches', cursive;
+  font-size: 30px;
+  font-family: 'Staatliches', cursive;
 }
 
 #background{
   background-image: url(https://raw.githubusercontent.com/hifrcy/landing-page/dev/image/fond.png);
   width: 150px;
+}
+
+form{
+  font-family: 'Staatliches', cursive;
 }
