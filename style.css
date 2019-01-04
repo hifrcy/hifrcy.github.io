@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 10%;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+
+#conteneur{
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+  image: height 64px;
+}
+
+.nl {
+  width: 150px;
+  margin: 50px;
+  border: 3px solid white;
+  border-radius: 15px 15px;
+  font-family: 'Staatliches', cursive;
+}
+
+.logo{
+
+  width: 64px;
+}
+
+.logo:nth-child(1){
+    align-self: flex-end;
+    filter: invert(1);
+    width: 64px;
+}
+
+.logo:nth-child(2){
+    align-self: flex-end;
+    filter: invert(1);
+    width: 64px;
+}
+
+body {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background: url(https://raw.githubusercontent.com/hifrcy/landing-page/dev/image/fond.png)no-repeat;
+  background-size: 50%;
+  background-attachment: fixed;
+  background-position: 90% 50%;
+  background-color: #0094ab;
+  font-family: 'Staatliches', cursive;
+}
+
+.texte{
+  text-align: center;
+}
+
+#background{
+  background-image: url(https://raw.githubusercontent.com/hifrcy/landing-page/dev/image/fond.png);
+  width: 150px;
+}
