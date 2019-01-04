@@ -98,11 +98,17 @@ img[usemap2] {
     width: auto;
 }
 
-#background{
-  background-image: url(https://raw.githubusercontent.com/hifrcy/landing-page/dev/image/fond.png);
-  width: 150px;
-}
-
 form{
   font-family: 'Staatliches', cursive;
+}
+
+div#slider figure {
+  position: relative;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  left: 0;
+  text-align: left;
+  animation: 10s slidy infinite;
 }
