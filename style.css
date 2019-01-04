@@ -27,6 +27,7 @@ header {
 .nl2 {
   margin: 30px;
   white-space: nowrap;
+  transform: translateY(20%);
 }
 
 h5 {
@@ -56,11 +57,7 @@ body {
   font-size: 20px;
   text-align: left;
   color: white;
-  background: url(https://raw.githubusercontent.com/hifrcy/landing-page/dev/image/fond.png)no-repeat;
-  background-size: 50%;
-  background-attachment: fixed;
-  background-position: 90% 50%;
-  background-color: #0094ab;
+  background-color: #1ba4f0;
   font-family: 'Lobster Two', cursive;
 }
 
@@ -74,6 +71,32 @@ body {
 #texte2{
   font-size: 30px;
   font-family: 'Staatliches', cursive;
+}
+
+.modal-header{
+	background-color: #497585;
+}
+.modal-body{
+	background-color: #005f82;
+}
+
+.modal-footer{
+	background-color: #497585;
+}
+
+img[usemap] {
+    border: none;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+
+img[usemap2] {
+
+    border: none;
+    height: auto;
+    max-width: 80%;
+    width: auto;
 }
 
 #background{
